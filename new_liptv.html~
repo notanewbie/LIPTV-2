@@ -53,6 +53,7 @@
 </span>
 </body>
 </html>
+<script async src="https://www.youtube.com/iframe_api"></script>
 <script type="text/javascript">
 ABC_News4 = "http://abcnews.go.com/video/embed?id=20969244";
 ABC_News5 = "http://abcnews.go.com/video/embed?id=15048938";
@@ -217,76 +218,59 @@ bot_square5_text = bot_square5[0].getElementsByTagName("bot_square5_text");
 iframe = document.getElementsByTagName("iframe")
 function SetSquare(name, photo, square) {
 	if(square == 0) {
-		big_square1_img[0].src = photo;
-		big_square1_text[0].innerHTML = name
+		big_square1[0].innerHTML = "<iframe id='player' src='" + photo + "&vq=small&mute=1&quality=240&enablejsapi=1&iv_load_policy=3' />";
+
 	}
 	if(square == 1) {
-		big_square2_img[0].src = photo;
-		big_square2_text[0].innerHTML = name
+		big_square2[0].innerHTML = "<iframe id='player' src='" + photo + "&vq=small&mute=1&quality=240&enablejsapi=1&iv_load_policy=3&volume=0' />";
 	}
 	if(square == 2) {
-		big_square3_img[0].src = photo;
-		big_square3_text[0].innerHTML = name
+		big_square3[0].innerHTML = "<iframe id='player' src='" + photo + "&vq=small&mute=1&quality=240&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 3) {
-		tiny_tile1_img[0].src = photo;
-		tiny_tile1_text[0].innerHTML = name
+		tiny_tile1[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 4) {
-		tiny_tile2_img[0].src = photo;
-		tiny_tile2_text[0].innerHTML = name
+		tiny_tile2[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 5) {
-		tiny_tile3_img[0].src = photo;
-		tiny_tile3_text[0].innerHTML = name
+		tiny_tile3[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 6) {
-		tiny_tile4_img[0].src = photo;
-		tiny_tile4_text[0].innerHTML = name
+		tiny_tile4[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 7) {
-		tiny_tile5_img[0].src = photo;
-		tiny_tile5_text[0].innerHTML = name
+		tiny_tile5[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 8) {
-		tiny_tile6_img[0].src = photo;
-		tiny_tile6_text[0].innerHTML = name
+		tiny_tile6[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 9) {
-		tiny_tile7_img[0].src = photo;
-		tiny_tile7_text[0].innerHTML = name
+		tiny_tile7[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 10) {
-		tiny_tile8_img[0].src = photo;
-		tiny_tile8_text[0].innerHTML = name
+		tiny_tile8[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 11) {
-		tiny_tile9_img[0].src = photo;
-		tiny_tile9_text[0].innerHTML = name
+		tiny_tile9[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 12) {
-		tiny_tile10_img[0].src = photo;
-		tiny_tile10_text[0].innerHTML = name
+		tiny_tile10[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 13) {
-		tiny_tile11_img[0].src = photo;
-		tiny_tile11_text[0].innerHTML = name
+		tiny_tile11[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 14) {
-		tiny_tile12_img[0].src = photo;
-		tiny_tile12_text[0].innerHTML = name
+		tiny_tile12[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 15) {
-		tiny_tile13_img[0].src = photo;
-		tiny_tile13_text[0].innerHTML = name
+		tiny_tile13[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 16) {
-		tiny_tile14_img[0].src = photo;
-		tiny_tile14_text[0].innerHTML = name
+		tiny_tile14[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == 17) {
-		tiny_tile15_img[0].src = photo;
-		tiny_tile15_text[0].innerHTML = name
+		tiny_tile15[0].innerHTML = "<iframe id='smallplayer' src='" + photo + "&vq=tiny&mute=1&quality=180&enablejsapi=1&iv_load_policy=3' />";
 	}
 	if(square == "sugg1") {
 		bot_square1_img[0].src = photo;
@@ -308,29 +292,36 @@ function SetSquare(name, photo, square) {
 		bot_square5_img[0].src = photo;
 		bot_square5_text[0].innerHTML = name
 	}
+	function onPlayerReady(event) {
+        player.playVideo();
+        // Mute?!
+        //player.mute(); instead of this use below
+        event.target.mute();
+        //player.setVolume(0);
+    }
 }
 function Boxes(type) {
 	if(type == "default") {
 		ClearBoxes()
-		SetSquare("<a href='javascript:Do_Repor()'><white>Colbert Report</white></a>", "repor.jpg", 0)
-		SetSquare("<a href='javascript:Do_C()'>Studio C</a>", "c.jpg", 1)
-		SetSquare("<a href='javascript:Do_FNC()'>Fox News</a>", "fnc.jpg", 2)
+		SetSquare("<a href='javascript:Do_Repor()'><white>Colbert Report</white></a>", Repor, 0)
+		SetSquare("<a href='javascript:Do_C()'>Studio C</a>", StudioC, 1)
+		SetSquare("<a href='javascript:Do_FNC()'>Fox News</a>", FNC, 2)
 		
-		SetSquare("<a href='javascript:Do_ESPNY()'>ESPN</a>", "espn.png", 3)
-		SetSquare("<a href='javascript:Do_Repor()'><white>Colbert Report</white></a>", "repor.jpg", 4)
-		SetSquare("<a href='javascript:Do_Nightly()'>The Nightly Show</a>", "nightly.png", 5)
-		SetSquare("<a href='javascript:Do_Cat()'><white>Monstercat FM</white></a>", "cat.jpg", 6)
-		SetSquare("<a href='javascript:Do_FNT()'>Fox News Talk</a>", "fnt.jpg", 7)
-		SetSquare("<a href='javascript:Do_Track()'><white>Trackstarz</white></a>", "track.jpg", 8)
-		SetSquare("<a href='javascript:Do_Tim()'><white>Tim Hawkins</white></a>", "tim.jpg", 9)
-		SetSquare("<a href='javascript:Do_Zil()'>Rapzilla</a>", "zil.jpg", 10)
-		SetSquare("<a href='javascript:Do_BYU()'>BYU TV</a>", "byu.jpg", 11)
-		SetSquare("<a href='javascript:Do_Coco()'><white>Conan</white></a>", "conan.jpg", 12)
-		SetSquare("<a href='javascript:Do_Bee()'>Full Frontal</a>", "b.jpg", 13)
-		SetSquare("<a href='javascript:Do_Xbox()'><white>Xbox</white></a>", "x.jpg", 14)
-		SetSquare("<a href='javascript:Do_PS()'><white>Playstation</white></a>", "ps.jpg", 15)
-		SetSquare("<a href='javascript:Do_YT()'>Youtube Spotlight</a>", "yt.jpg", 16)
-		SetSquare("<a href='javascript:Do_YTNews()'>Top Stories on Youtube</a>", "news.jpg", 17)
+		SetSquare("<a href='javascript:Do_ESPNY()'>ESPN</a>", ESPN, 3)
+		SetSquare("<a href='javascript:Do_Repor()'><white>Colbert Report</white></a>", Repor, 4)
+		SetSquare("<a href='javascript:Do_Nightly()'>The Nightly Show</a>", Nightly, 5)
+		SetSquare("<a href='javascript:Do_Cat()'><white>Monstercat FM</white></a>", Cat, 6)
+		SetSquare("<a href='javascript:Do_FNT()'>Fox News Talk</a>", FNT, 7)
+		SetSquare("<a href='javascript:Do_Track()'><white>Trackstarz</white></a>", Track, 8)
+		SetSquare("<a href='javascript:Do_Tim()'><white>Tim Hawkins</white></a>", Tim, 9)
+		SetSquare("<a href='javascript:Do_Zil()'>Rapzilla</a>", Zil, 10)
+		SetSquare("<a href='javascript:Do_BYU()'>BYU TV</a>", BYU, 11)
+		SetSquare("<a href='javascript:Do_Coco()'><white>Conan</white></a>", Coco, 12)
+		SetSquare("<a href='javascript:Do_Bee()'>Full Frontal</a>", Bee, 13)
+		SetSquare("<a href='javascript:Do_Xbox()'><white>Xbox</white></a>", Xbox, 14)
+		SetSquare("<a href='javascript:Do_PS()'><white>Playstation</white></a>", PS, 15)
+		SetSquare("<a href='javascript:Do_YT()'>Youtube Spotlight</a>", YT, 16)
+		SetSquare("<a href='javascript:Do_YTNews()'>Top Stories on Youtube</a>", YTNews, 17)
 		
 		SetSquare("<a href='javascript:Do_YTGame()'>Youtube Gaming</a>", "gaming.jpg", 18)
 		SetSquare("<a href='javascript:Do_YTMusic()'>Popular Music Videos on Youtube</a>", "music.jpg", 18)		
