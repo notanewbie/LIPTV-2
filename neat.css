@@ -335,16 +335,6 @@ vid_part {
 	visibility: hidden;
 	background-color: black;
 }
-#vid_part {
-	position: fixed;
-	display: block;
-	height: 65vh;
-	top: 0%;
-	max-width: 100%;
-	height: 100%;
-	visibility: hidden;
-	background-color: black;
-}
 #iframe {
 	position: fixed;
 	left: 50%;
@@ -372,14 +362,6 @@ iframe#player {
 	width: 100%;
 	height: 45%;
 	border: 0;
-}
-div#player {
-	position: absolute;
-	left: 50%;
-	top: 0%;
-	transform: translateX(-50%);
-	width: 100%;
-	height: 100%;
 }
 top_part {
 	position: fixed;
