@@ -35,8 +35,6 @@ space {
         <iframe type='text/html' src='TV.html' frameborder='0'></iframe>
         <iframe type='text/html' src='Film.html' frameborder='0'></iframe>
         <iframe type='text/html' src='Daily.html' frameborder='0'></iframe>
-        <iframe type='text/html' src='Colbert.html' frameborder='0'></iframe>
-        <iframe type='text/html' src='Corden.html' frameborder='0'></iframe>
         </body></html>
 <script type="text/javascript">
 streeng = "enablejsapi=1&rel=0&playsinline=1"

@@ -335,7 +335,7 @@ vid_part {
 	visibility: hidden;
 	background-color: black;
 }
-iframe {
+#iframe {
 	position: fixed;
 	left: 50%;
 	transform: translateX(-50%);
@@ -343,6 +343,24 @@ iframe {
 	max-width: 100vw;
 	min-width: 50vw;
 	height: 65vh;
+	border: 0;
+}
+iframe#smallplayer {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 10%;
+	width: 100%;
+	height: 25%;
+	border: 0;
+}
+iframe#player {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 10%;
+	width: 100%;
+	height: 45%;
 	border: 0;
 }
 top_part {
