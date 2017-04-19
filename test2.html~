@@ -20,7 +20,7 @@ body {
 </style>
 <html><body style='margin:0px;padding:0px;'>
         <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
-        <iframe type='text/html' src='Newsmax.html' frameborder='0'></iframe>
+        <iframe type='text/html' src='Newsmax.html' frameborder='0' onclick="javascript:alert(this.src)"></iframe>
         <iframe type='text/html' src='FNC.html' frameborder='0'></iframe>
         <iframe type='text/html' src='CNN.html' frameborder='0'></iframe>
         <iframe type='text/html' src='MSNBC.html' frameborder='0'></iframe>
@@ -33,7 +33,6 @@ body {
         </body></html>
 <script type="text/javascript">
 streeng = "enablejsapi=1&rel=0&playsinline=1"
-iframes = document.getElementsByTagName("iframe")
 high = 0
 function down() {
 	if(high == -1) {

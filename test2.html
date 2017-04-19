@@ -1,11 +1,138 @@
 <style type="text/css">
-iframe {
-	position: relative;
-	top: 5%;
-	left: 5%;
-	width: 22vw;
-	height: 38vh;
+#iframe01 {
+	position: absolute;
+	top: 5vh;
+	left: 27vw;
+	width: 23vw;
+	height: 28vh;
 	border: 0;
+	opacity: 0;
+}
+#iframe02 {
+	position: absolute;
+	top: 5vh;
+	left: 50vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+	opacity: 0;
+}
+#iframe03 {
+	position: absolute;
+	top: 5vh;
+	left: 73vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+	opacity: 0;
+}
+
+
+#iframe04 {
+	position: absolute;
+	top: 40vh;
+	left: 5vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+	opacity: 0;
+}
+#iframe05 {
+	position: absolute;
+	top: 40vh;
+	left: 27vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+	opacity: 0;
+}
+#iframe06 {
+	position: absolute;
+	top: 40vh;
+	left: 50vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+	opacity: 0;
+}
+#iframe07 {
+	position: absolute;
+	top: 40vh;
+	left: 73vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+	opacity: 0;
+}
+#iframe0 {
+	position: absolute;
+	top: 5vh;
+	left: 5vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+}
+#iframe1 {
+	position: absolute;
+	top: 5vh;
+	left: 27vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+}
+#iframe2 {
+	position: absolute;
+	top: 5vh;
+	left: 50vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+}
+#iframe3 {
+	position: absolute;
+	top: 5vh;
+	left: 73vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+}
+
+
+#iframe4 {
+	position: absolute;
+	top: 40vh;
+	left: 5vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+}
+#iframe5 {
+	position: absolute;
+	top: 40vh;
+	left: 27vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+}
+#iframe6 {
+	position: absolute;
+	top: 40vh;
+	left: 50vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+}
+#iframe7 {
+	position: absolute;
+	top: 40vh;
+	left: 73vw;
+	width: 23vw;
+	height: 28vh;
+	border: 0;
+}
+iframe {
+	width: 100%;
+	height: 100%;
 }
 space {
 	width: 15vw;
@@ -14,26 +141,49 @@ body {
 	background-color: black;
 }
 #down {
+	position: absolute;
+	left: 45vw;
+	top: 75vh;
 	width: 11vw;
 	height: auto;
 }
 </style>
 <html><body style='margin:0px;padding:0px;'>
         <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
-        <iframe type='text/html' src='Newsmax.html' frameborder='0' onclick="javascript:alert(this.src)"></iframe>
-        <iframe type='text/html' src='FNC.html' frameborder='0'></iframe>
-        <iframe type='text/html' src='CNN.html' frameborder='0'></iframe>
-        <iframe type='text/html' src='MSNBC.html' frameborder='0'></iframe>
-        <iframe type='text/html' src='NBC News.html' frameborder='0'></iframe>
-        <iframe type='text/html' src='First.html' frameborder='0'></iframe>
-        <iframe type='text/html' src='Undisputed.html' frameborder='0'></iframe>
-        <iframe type='text/html' src='ESPN3.html' frameborder='0'></iframe>
+        <div id="iframe0"><img src="w.png" id="iframe00"></img>
+        <iframe type='text/html' id="frame0" src='Newsmax.html' frameborder='0'></iframe>
+        </div>
+        <div id="iframe1"><img src="w.png" id="iframe01"></img>
+        <iframe type='text/html' id="frame1" src='FNC.html' frameborder='0'></iframe>
+        </div>
+        <div id="iframe2"><img src="w.png" id="iframe02"></img>
+        <iframe type='text/html' id="frame2" src='CNN.html' frameborder='0'></iframe>
+        </div>
+        <div id="iframe3"><img src="w.png"></img>
+        <iframe type='text/html' id="frame3" src='MSNBC.html' frameborder='0'></iframe>
+        </div>
+        <div id="iframe4"><img src="w.png"></img>
+        <iframe type='text/html' id="frame4" src='NBC News.html' frameborder='0'></iframe>
+        </div>
+        <div id="iframe5"><img src="w.png"></img>
+        <iframe type='text/html' id="frame5" src='First.html' frameborder='0'></iframe>
+        </div>
+        <div id="iframe6"><img src="w.png"></img>
+        <iframe type='text/html' id="frame6" src='Undisputed.html' frameborder='0'></iframe>
+        </div>
+        <div id="iframe7"><img src="w.png"></img>
+        <iframe type='text/html' id="frame7" src='ESPN3.html' frameborder='0'></iframe>
+        </div>
         <br />
         <center><a href="javascript:down()"><img id="down" src="down.png"></img></a></center>
         </body></html>
 <script type="text/javascript">
 streeng = "enablejsapi=1&rel=0&playsinline=1"
 high = 0
+iframes = document.getElementsByTagName("iframe")
+spaces = iframes[0].contentWindow.document;
+spaces = spaces.getElementsByTagName("img")
+divs = document.getElementsByTagName("div")
 function down() {
 	if(high == -1) {
 		iframes[0].src = "Newsmax.html"

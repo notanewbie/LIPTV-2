@@ -12,5 +12,5 @@ iframe {
         function onPlayerReady(event){player.mute();player.setVolume(0);player.playVideo();}
         </script>
         <iframe id='playerId' type='text/html' width='1280' height='720'
-        src='https://www.youtube.com/embed/videoseries?list=UUaXkIU1QidjPwiAYu6GcHjg&autoplay=1;hl=en_US&enablejsapi=1&version=3' frameborder='0'>
+        src='https://www.youtube.com/embed/videoseries?list=UUaXkIU1QidjPwiAYu6GcHjg&autoplay=1;hl=en_US&vq=small&mute=1&quality=240&iv_load_policy=3&enablejsapi=1&version=3' frameborder='0'>
         </body></html>

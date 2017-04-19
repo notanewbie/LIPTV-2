@@ -12,5 +12,17 @@ iframe {
         function onPlayerReady(event){player.mute();player.setVolume(0);player.playVideo();}
         </script>
         <iframe id='playerId' type='text/html' width='1280' height='720'
-        src='http://video.foxnews.com/v/video-embed.html?video_id=2013931500001' frameborder='0'>
+        src='http://video.foxnews.com/v/video-embed.html?video_id=2013931500001' frameborder='0'></iframe>
         </body></html>
+<style type="text/css">
+#space {
+	z-index: 10;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0;
+}
+</style>
+<img src="w.png" id="space"></img>
