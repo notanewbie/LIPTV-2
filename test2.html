@@ -1,0 +1,105 @@
+<style type="text/css">
+iframe {
+	position: relative;
+	top: 5%;
+	left: 5%;
+	width: 22vw;
+	height: 38vh;
+	border: 0;
+}
+space {
+	width: 15vw;
+}
+body {
+	background-color: black;
+}
+#down {
+	width: 11vw;
+	height: auto;
+}
+</style>
+<html><body style='margin:0px;padding:0px;'>
+        <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
+        <iframe type='text/html' src='Newsmax.html' frameborder='0' onclick="javascript:alert(this.src)"></iframe>
+        <iframe type='text/html' src='FNC.html' frameborder='0'></iframe>
+        <iframe type='text/html' src='CNN.html' frameborder='0'></iframe>
+        <iframe type='text/html' src='MSNBC.html' frameborder='0'></iframe>
+        <iframe type='text/html' src='NBC News.html' frameborder='0'></iframe>
+        <iframe type='text/html' src='First.html' frameborder='0'></iframe>
+        <iframe type='text/html' src='Undisputed.html' frameborder='0'></iframe>
+        <iframe type='text/html' src='ESPN3.html' frameborder='0'></iframe>
+        <br />
+        <center><a href="javascript:down()"><img id="down" src="down.png"></img></a></center>
+        </body></html>
+<script type="text/javascript">
+streeng = "enablejsapi=1&rel=0&playsinline=1"
+high = 0
+function down() {
+	if(high == -1) {
+		iframes[0].src = "Newsmax.html"
+		iframes[1].src = "FNC.html"
+		iframes[2].src = "CNN.html"
+		iframes[3].src = "MSNBC.html"
+		iframes[4].src = "NBC News.html"
+		iframes[5].src = "First.html"
+		iframes[6].src = "Undisputed.html"
+		iframes[7].src = "ESPN3.html"
+		high = high + 1
+	}
+	else if(high == 0) {
+		iframes[0].src = "Herd.html"
+		iframes[1].src = "YTLive.html"
+		iframes[2].src = "YTSports.html"
+		iframes[3].src = "Euronews.html"
+		iframes[4].src = "Blaze.html"
+		iframes[5].src = "OAN.html"
+		iframes[6].src = "TYT.html"
+		iframes[7].src = "LevinTV.html"
+		high = high + 1
+	}
+	else if(high == 1) {
+		iframes[0].src = "Marvel.html"
+		iframes[1].src = "DC.html"
+		iframes[2].src = "LWT.html"
+		iframes[3].src = "TV.html"
+		iframes[4].src = "Film.html"
+		iframes[5].src = "Daily.html"
+		iframes[6].src = "Colbert.html"
+		iframes[7].src = "Corden.html"
+		high = high + 1
+	}
+	else if(high == 2) {
+		iframes[0].src = "Fallon.html"
+		iframes[1].src = "SNL.html"
+		iframes[2].src = "StudioC.html"
+		iframes[3].src = "YTPop.html"
+		iframes[4].src = "YTMusic.html"
+		iframes[5].src = "YTGame.html"
+		iframes[6].src = "YTNews.html"
+		iframes[7].src = "YT.html"
+		high = high + 1
+	}
+	else if(high == 3) {
+		iframes[0].src = "PS.html"
+		iframes[1].src = "Xbox.html"
+		iframes[2].src = "Bee.html"
+		iframes[3].src = "Coco.html"
+		iframes[4].src = "BYU.html"
+		iframes[5].src = "Zil.html"
+		iframes[6].src = "Tim.html"
+		iframes[7].src = "Track.html"
+		high = high + 1
+	}
+	else if(high == 4) {
+		iframes[0].src = "TRMS.html"
+		iframes[1].src = "FNT.html"
+		iframes[2].src = "Cat.html"
+		iframes[3].src = "Repor.html"
+		iframes[4].src = "Nightly.html"
+		iframes[5].src = "ESPN.html"
+		iframes[6].src = ""
+		iframes[7].src = ""
+		high = -1
+	}
+}
+</script>

@@ -1,0 +1,16 @@
+<style type="text/css">
+iframe {
+	width: 100%;
+	height: 100%;
+}
+</style>
+<html><body style='margin:0px;padding:0px;'>
+        <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script><script type='text/javascript'>
+                var player;
+        function onYouTubeIframeAPIReady()
+        {player=new YT.Player('playerId',{events:{onReady:onPlayerReady}})}
+        function onPlayerReady(event){player.mute();player.setVolume(0);player.playVideo();}
+        </script>
+        <iframe id='playerId' type='text/html' width='1280' height='720'
+        src='http://video.foxnews.com/v/video-embed.html?video_id=2013931500001' frameborder='0'>
+        </body></html>
